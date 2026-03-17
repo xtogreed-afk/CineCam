@@ -1,1 +1,17 @@
-
+{
+  "format_version": 2,
+  "header": {
+    "name": "CineCam BP",
+    "description": "Cinematic camera for Bedrock. Three modes: first person, left and right shoulder.",
+    "uuid": "a1f3c7e2-5b84-4d91-9e06-2c3f8a1d7b40",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 90]
+  },
+  "modules": [
+    { "type": "data", "uuid": "b2e4d6f8-7c93-4a02-8f17-3d4e9b2c5a61", "version": [1, 0, 0] },
+    { "type": "script", "language": "javascript", "uuid": "c3f5e7a9-8d04-4b13-9a28-4e5f0c3d6b72", "version": [1, 0, 0], "entry": "scripts/main.js" }
+  ],
+  "dependencies": [
+    { "module_name": "@minecraft/server",    "version": "2.1.0-beta" }
+  ]
+}
